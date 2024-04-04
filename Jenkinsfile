@@ -1,5 +1,5 @@
 pipeline {
-	agent {  label 'linux-node' }
+	agent {  label 'jenkins-slave1' }
 	stages {
 		stage('---clean----'){
 			tools {
