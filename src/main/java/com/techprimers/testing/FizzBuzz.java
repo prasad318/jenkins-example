@@ -4,7 +4,7 @@ public class FizzBuzz {
 
     public String play(int number) {
 
-        if (number == 0) throw new IllegalArgumentException("github test event");
+        if (number == 0) throw new IllegalArgumentException("new event for test githubhook");
         if (number % 3 == 0) return "Fizz";
         if (number % 5 == 0) return "Buzz";
 
